@@ -19,6 +19,7 @@ a {
 .intro {
 	background: url("images/Intro.jpg") center center no-repeat;
 	background-size: cover;
+	height: 1350px;
 }
 
 .intro__header {
@@ -66,4 +67,88 @@ a {
 	padding: 0;
 	border: 0;
 	background: transparent;
+}
+
+.intro__side-panel {
+	position: absolute;
+	top: 350px;
+	left: 50px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.intro__side-panel__link {
+	color: #fff;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	writing-mode: vertical-rl;
+}
+
+.intro__content__wrapper {
+	margin-top: 200px;
+	margin-left: 23vw;
+}
+
+.intro__content__pre-title-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.intro__content__line {
+	width: 72px;
+	margin: 0;
+	border-color: #FFC178;
+	border-top: 3px;
+}
+
+.intro__content__pre-title-text {
+	margin-left: 32px;
+	color: #FFC178;
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+.intro__content__title {
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 88px;
+	letter-spacing: 3px;
+	line-height: 100px;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.intro__content__title > span {
+	display: block;
+	font-weight: 700;
+	font-size: 96px;
+}
+
+.intro__footer {
+	margin-top: 125px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro__footer > span {
+	margin-right: 10px;
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
 }
