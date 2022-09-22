@@ -138,14 +138,6 @@ a {
 	color: var(--secondary-color);
 }
 
-.pre-title--large > hr {
-	margin: auto 32px auto 0;
-}
-
-.pre-title > hr {
-	margin: auto 24px auto 0;
-}
-
 .pre-title--light {
 	color: var(--secondary-color-light);
 }
@@ -160,6 +152,22 @@ a {
 
 .pre-title__line__light {
 	background-color: var(--secondary-color-light);
+}
+
+.pre-title__line_intro {
+	margin: auto 32px auto 0;
+}
+
+.pre-title__line_holiday {
+	margin: auto 24px auto 0;
+}
+
+.pre-title__line_bromo-left {
+	margin: auto 29px auto 0;
+}
+
+.pre-title__line_bromo-right {
+	margin: auto 0 auto 29px;
 }
 
 .pre-title__text {
@@ -263,4 +271,26 @@ a {
 
 .read-more__icon {
 	margin-left: 9px;
+}
+
+.bromo-mountain-wrapper {
+	width: 100%;
+	height: 985px;
+	margin-top: 250px;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url("images/BromoBackground.png") center center no-repeat;
+	background-size: cover;
+}
+
+.bromo-mountain-wrapper__content {
+	max-width: 934px;
+	margin-top: auto;
+	padding-bottom: 41px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
