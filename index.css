@@ -223,7 +223,6 @@ a {
 
 .content-layout {
 	padding: 0 230px;
-	display: flex;
 }
 
 .content-layout_holiday {
@@ -315,4 +314,149 @@ a {
 
 .content-layout__wrapper_culture {
 	margin-top: 115px;
+}
+
+.content-layout_pre-footer {
+	margin-top: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.pre-footer__logo {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 65px;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+}
+
+.pre-footer__get-started-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.pre-footer__get-started-text {
+	margin-right: 55px;
+	font-family: "DM Sans", Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 29px;
+	letter-spacing: -0.3px;
+}
+
+.button {
+	padding: 0;
+	border: 0;
+	background-color: #FFA343;
+}
+
+.button_get-started {
+	width: 239px;
+	height: 69px;
+	border-radius: 8px;
+	font-family: "DM Sans", Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+.content-layout_links {
+	margin-top: 47px;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	margin: 0;
+	display: block;
+	background-color: var(--primary-color);
+	border: 0;
+	opacity: 0.3;
+}
+
+.links-wrapper {
+	display: flex;
+}
+
+.contact-us-wrapper {
+	display: inline-block;
+}
+
+.contact-us {
+	width: 400px;
+}
+
+.contact-us__text {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 49px;
+	letter-spacing: -0.3px;
+}
+
+.contact-us__form {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.contact-us__form__input {
+	margin: 19px auto auto 15px;
+	border: 0;
+	background: transparent;
+	outline: none;
+}
+
+.contact-us__form__button {
+	width: 69px;
+	height: 69px;
+	border-radius: 8px 8px 0 0;
+}
+
+.contact-us__divider {
+	height: 1px;
+	margin: 0;
+	border: 0;
+	background: var(--primary-color);
+	opacity: 0.3;
+}
+
+.list-of-links {
+	margin-top: 55px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.list-of-links > a {
+	margin-top: 19px;
+}
+
+.list-of-links__title {
+	margin: 0;
+	font-weight: 700;
+	font-size: 20px;
+	color: #FFD1A0;
+}
+
+.list-of-links__link {
+	font-weight: 400;
+	font-size: 19px;
+}
+
+.services {
+	margin-left: 252px;
+}
+
+.about {
+	margin-left: 184px;
+}
+
+.help {
+	margin-left: 184px;
 }
