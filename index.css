@@ -95,6 +95,13 @@ a {
 }
 
 .intro__header__search > input::placeholder {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 23px;
+	color: var(--primary-color);
+}
+
+.intro__header__search > input::placeholder {
 	font-family: inherit;
 	font-weight: 400;
 	font-size: 17px;
@@ -410,6 +417,16 @@ a {
 	border: 0;
 	background: transparent;
 	outline: none;
+}
+
+.contact-us__form__input::placeholder {
+	font-family: "DM Sans", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.204545px;
+	color: var(--primary-color);
+	opacity: 0.5;
 }
 
 .contact-us__form__button {
